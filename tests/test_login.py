@@ -12,6 +12,7 @@ def test_successful_login(page):
     # 2. Buka URL yang diambil dari Config (File .env)
     page.goto(BASE_URL)
 
+
     # 3. Jalankan aksi login menggunakan data dari Config (File .env)
     login_page.login(USERNAME, PASSWORD)
 
