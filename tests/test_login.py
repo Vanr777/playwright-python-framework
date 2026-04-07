@@ -1,19 +1,38 @@
+from config import BASE_URL, USERNAME, PASSWORD
 from pages.login_page import LoginPage
 
 
 def test_successful_login(page):
-    # 1. Inisialisasi Page Object
+    """
+    Skenario: Login dengan kredensial yang benar dari config
+    """
+    # 1. Inisialisasi Page Object (Halaman Login)
     login_page = LoginPage(page)
 
-    # 2. Buka halaman login
-    login_page.navigate("https://the-internet.herokuapp.com/login")
+    # 2. Buka URL yang diambil dari Config (File .env)
+    page.goto(BASE_URL)
 
-    # 3. Masukkan username & password (kredensial contoh)
-    login_page.login("tomsmith", "SuperSecretPassword!")
+    # 3. Jalankan aksi login menggunakan data dari Config (File .env)
+    login_page.login(USERNAME, PASSWORD)
 
-    # 4. Ambil pesan yang muncul di web
-    pesan = login_page.get_message()
+    # 4. Validasi (Assertion)
+    # Memastikan elemen sukses login muncul (sesuaikan selector dengan website Anda)
+    # Contoh untuk HerokuApp:
+    assert page.is_visible("div.flash.success")
+    assert "You logged into a secure area!" in page.inner_text("div.flash.success")
 
-    # 5. Cek apakah ada tulisan 'You logged into a secure area!'
-    # Ini namanya Assertion (penentu lulus/gagalnya test)
-    assert "You logged into a secure area!" in pesan
+
+def test_failed_login(page):
+    """
+    Skenario: Login gagal dengan password salah
+    """
+    login_page = LoginPage(page)
+
+    page.goto(BASE_URL)
+
+    # Menggunakan username benar tapi password diketik manual (salah) untuk tes negatif
+    login_page.login(USERNAME, "PasswordSalah123!")
+
+    # Memastikan pesan error muncul
+    assert page.is_visible("div.flash.error")
+    assert "Your password is invalid!" in page.inner_text("div.flash.error")
