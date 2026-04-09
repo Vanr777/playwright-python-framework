@@ -26,7 +26,7 @@ browser secara visual:
 ```bash 
 pytest --headed
 ````
-### 4.**Running Parallel & Headles
+### 4.**Running Parallel & Headles**
 Menjalankan tes secara parallel tanpa membuka
 jendela browser:
 ```bash
