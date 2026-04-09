@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a14d1246-5f1a-42f3-989d-8a31eae83a86" name="Changes" comment="Revisi: Menghapus hardcoded data, memberdayakan folder config, dan menggunakan .env untuk keamanan.">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/playwright-python-framework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/python.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/pythonw.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/pyvenv.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot_headless.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_login.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Vanr777&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Vanr777/playwright-python-framework.git&quot;,
+    &quot;accountId&quot;: &quot;af19814a-84ed-41bc-99bf-c134a2b2f8df&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3C0RqSFZFCGLg30uELPy1450Xgv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "git-widget-placeholder": "feature/headless-parallel-execution",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.32098.74" />
+        <option value="bundled-python-sdk-1cd77e80b48f-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.32098.74" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a14d1246-5f1a-42f3-989d-8a31eae83a86" name="Changes" comment="" />
+      <created>1775520692623</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775520692623</updated>
+      <workItem from="1775520693676" duration="10007000" />
+      <workItem from="1775535405966" duration="6929000" />
+      <workItem from="1775609233275" duration="741000" />
+      <workItem from="1775712378480" duration="1679000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit: Setup modular Playwright framework and login test">
+      <option name="closed" value="true" />
+      <created>1775523732400</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1775523732400</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit: Setup modular Playwright framework and login test">
+      <option name="closed" value="true" />
+      <created>1775530270808</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1775530270808</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Revisi: Menghapus hardcoded data, memberdayakan folder config, dan menggunakan .env untuk keamanan.">
+      <option name="closed" value="true" />
+      <created>1775534255481</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1775534255481</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit: Setup modular Playwright framework and login test" />
+    <MESSAGE value="Revisi: Menghapus hardcoded data, memberdayakan folder config, dan menggunakan .env untuk keamanan." />
+    <option name="LAST_COMMIT_MESSAGE" value="Revisi: Menghapus hardcoded data, memberdayakan folder config, dan menggunakan .env untuk keamanan." />
+  </component>
+</project>
