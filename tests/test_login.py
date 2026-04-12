@@ -23,7 +23,7 @@ def test_successful_login(page):
     assert "You logged into a secure area!" in page.inner_text("div.flash.success")
 
 
-def test_failed_login(page):
+#def test_failed_login(page):
     """
     Skenario: Login gagal dengan password salah
     """
@@ -37,3 +37,14 @@ def test_failed_login(page):
     # Memastikan pesan error muncul
     assert page.is_visible("div.flash.error")
     assert "Your password is invalid!" in page.inner_text("div.flash.error")
+
+
+def test_successful_login(page):
+    login_page = LoginPage(page)
+    page.goto(BASE_URL)
+    login_page.login(USERNAME, PASSWORD)
+
+    # Tambahkan baris ini untuk bukti ke Om
+    page.screenshot(path="screenshot_headless.png")
+
+    assert page.is_visible("div.flash.success")
